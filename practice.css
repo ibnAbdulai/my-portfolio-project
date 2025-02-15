@@ -1,0 +1,185 @@
+.survey{
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+.Fs{
+  display: inline-block;
+}
+
+.email{
+  display: block;
+  width: 312px;
+}
+
+.image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
+
+.tweet{
+  background-color: rgb(29, 155, 245);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 16px;
+  
+}
+
+.div2{
+  width: 450px;
+  padding: 12px 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+} 
+
+.inputText{
+  font-size: 18px;
+  width: 300px;
+  border: none;
+  vertical-align: middle;
+}
+
+.profileImage{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /*aspect-ratio: 1 /1 ;*/
+}
+
+.imageContainer{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.profileInfo{
+  display: inline-block;
+  margin-right: 250px;
+  vertical-align: middle;
+}
+
+.profileName, .profilePet, .status{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profileName{
+  margin-bottom: 5px;
+}
+
+.profilePet{
+  margin-bottom: 5px;
+}
+
+.buttonF{
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+
+}
+
+.followB{
+  background-color: rgb(36, 130, 253);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.05s;
+}
+
+.followB:hover{
+  opacity: 0.6;
+}
+
+.followB:active{
+  opacity: 0.4;
+}
+
+.profileName{
+  font-weight: bold;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profileContainer{
+  width: 500px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.imgProfile{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 0;
+}
+
+.chanPic{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 4px;
+  vertical-align: middle;
+  
+}
+
+
+
+.olv{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.addBut{
+  margin-top: 0;
+}
+
+.profilefrnds{
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(100, 100, 100);
+  
+}
+
+.addBut{
+  margin-top: 0;
+  display: block;
+  background-color: rgb(8, 8, 221);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.addBut:hover{
+  opacity: 0.7;
+}
+
+.addBut:active{
+  opacity: 0.4;
+}
+
+.box-Target{
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 3px);
+}

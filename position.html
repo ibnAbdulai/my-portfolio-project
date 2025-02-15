@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Practice</title>
+  </head>
+  <body style="
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 120px;
+
+  ">
+    <div style="
+      background-color: black;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      z-index: 100;
+    ">header</div>
+
+    <div style="
+      background-color: green;
+      color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 50px;
+      width: 72px;
+    ">
+      sidebar-left
+    <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      top: 0;
+      right: 0;
+    ">
+      X
+    </div>
+    </div>
+
+    <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      top: 60px;
+      right: 10px;
+    ">
+      absolute
+    </div>
+
+    <div style="
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 50px;
+    width: 100px;
+    ">
+      sidebar-right
+    </div>
+
+   <div style="
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static;  
+    
+  ">div 1</div> <!--position static is the default position-->
+   <div style="
+   background-color: lightpink;
+   height: 200px;
+   width: 200px;
+   position: relative;
+  ">div 2
+  <div style="
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+">
+  5:00
+</div>
+</div>
+
+  <div style="
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 120px;  
+  ">
+    bottom-right
+  </div>
+
+  <div style="
+  background-color: rgba(0, 0, 0,);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  ">
+  <div style="
+  background-color: white;
+  width: 400px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  
+  ">
+    <h1>Modal Title</h1>
+    <p>This is a modal</p>
+    <button>close</button>
+  </div>
+
+  </div>
+  </body>
+</html>
